@@ -2,8 +2,6 @@
 #include "ZoomList.h"
 #include "Zoom.h"
 
-#include <iostream>
-
 using namespace std;
 
 ZoomList::ZoomList(int width, int height) : _width(width), _height(height)
@@ -23,8 +21,6 @@ void ZoomList::add(const Zoom& zoom)
 	_yCenter += (zoom._y - _height / 2) * _scale;
 
 	_scale *= zoom._scale;
-
-	cout << _xCenter << ", " << _yCenter << ", " << _scale << endl;
 }
 
 pair<double, double> ZoomList::calculate(int x, int y)
