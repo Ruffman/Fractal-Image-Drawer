@@ -24,13 +24,13 @@ void ZoomList::add(const Zoom& zoom)
 
 	_scale *= zoom._scale;
 
-	cout << _yCenter << ", " << _yCenter << ", " << _scale << endl;
+	cout << _xCenter << ", " << _yCenter << ", " << _scale << endl;
 }
 
 pair<double, double> ZoomList::calculate(int x, int y)
 {
 	double xFractal = (x - _width / 2)*_scale + _xCenter;
-	double yFractal = (x - _height / 2)*_scale + _yCenter;
+	double yFractal = (y - _height / 2)*_scale + _yCenter;
 
 	return pair<double, double>(xFractal, yFractal);
 }
