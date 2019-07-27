@@ -30,6 +30,12 @@
     <ClInclude Include="Mandelbrot.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Zoom.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomList.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -42,6 +48,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Mandelbrot.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomList.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

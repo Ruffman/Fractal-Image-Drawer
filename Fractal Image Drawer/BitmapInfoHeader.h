@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-#pragma push(pack, 2)
+#pragma pack(push, 2)
 
 struct BitmapInfoHeader
 {
@@ -19,4 +19,4 @@ struct BitmapInfoHeader
 	std::int32_t importantColors{ 0 };
 };
 
-#pragma pop()
+#pragma pack(pop)
