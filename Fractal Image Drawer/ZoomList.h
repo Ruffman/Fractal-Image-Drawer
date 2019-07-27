@@ -16,6 +16,7 @@ private:
 	std::vector<Zoom> _zoomList;
 
 public:
+	ZoomList() = default;
 	ZoomList(int width, int height);
 	~ZoomList();
 

@@ -11,6 +11,7 @@ private:
 	std::unique_ptr<std::uint8_t[]> _pPixels{ nullptr };
 
 public:
+	Bitmap() = default;
 	Bitmap(int width, int height);
 	virtual ~Bitmap();
 
