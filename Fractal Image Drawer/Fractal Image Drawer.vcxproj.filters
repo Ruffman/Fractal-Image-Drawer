@@ -39,6 +39,9 @@
     <ClInclude Include="FractalCreator.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="RGB.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -57,6 +60,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="FractalCreator.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
